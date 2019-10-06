@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>EdYoda online Shop</title>
+    <link rel="stylesheet" href="./css/glide.core.min.css" />
+    <link rel="stylesheet" href="./css/glide.theme.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script
+      src="https://kit.fontawesome.com/f1c100177d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h2><a href="/">EdYoda Shop</a></h2>
+        <nav>
+          <div><a href="/#clothes">Clothing</a></div>
+          <div><a href="/#accesories">Accesories</a></div>
+        </nav>
+      </div>
+      <div>
+        <input type="text" placeholder="Search for clothing and Accesories" />
+        <div>
+          <div id="shopIcon">
+            <a href="/checkout.html"
+              ><i class="fas fa-shopping-cart"></i>
+              <span id="itemsCount">0</span></a
+            >
+          </div>
+          <div>
+            <img
+              src="https://inheridas.cl/wp-content/uploads/2016/03/594partner-profile-pic-An.jpg"
+              alt="Profile"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="checkout">
+      <h1>Checkout</h1>
+      <hr />
+      <h3 id="totalCountCheckout">Total count 0</h3>
+      <section>
+        <div id="boxesParent"></div>
+        <div>
+          <div id="totalAmount">
+            <h4>Total Amount:</h4>
+            <p id="valueAmount">Price</p>
+            <button id="placeOrder">Place order</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <h2>Online Store</h2>
+        <ul>
+          <li>CLOTHING</li>
+          <li>ACCESORIES</li>
+          <li>GO TO CHECKOUT</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Helpful links</h2>
+        <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Partners</h2>
+        <ul>
+          <li>ZARA</li>
+          <li>LEVIS</li>
+          <li>BERSHKA</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Address</h2>
+        <ul>
+          <li>BUILDING 101</li>
+          <li>AV. LECLER 2934</li>
+          <li>PARIS, FRANCE</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
